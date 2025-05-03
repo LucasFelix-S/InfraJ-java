@@ -1,1 +1,9 @@
 /bin/
+
+# Ignora configurações do Eclipse
+.settings/
+.classpath
+.project
+
+# Ignora arquivos do Git
+.git/
