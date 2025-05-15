@@ -3,6 +3,7 @@ import view.TelaMonitoramentoSo;
 import view.TelaComandos;
 
 public class InicialController {
+	
 	public static void validaOpcao(String opcao) {
 		TelaMonitoramentoSo monitor = new TelaMonitoramentoSo();
 		TelaComandos comandos = new TelaComandos();
