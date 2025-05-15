@@ -6,7 +6,6 @@ public class MonitoramentoSoController {
 	Properties infos = new Properties();
 	
 	public void soController(String opcaoSo) {	
-		
 		switch (opcaoSo) {
 			case "/infoso":
 				System.out.println("\nSistema Operacional: " + System.getProperty("os.name"));
@@ -16,17 +15,12 @@ public class MonitoramentoSoController {
 			case "/infoso -u":
 				System.out.println("\nnome do usuário que executa o programa: " + System.getProperty("user.name"));
 				System.out.println("Diterório home do usuário: " + System.getProperty("user.name"));
-				break;
-				
+				break;	
 			case "/exit":
 				System.exit(0);
 				break;
-				
 			default:
 				System.err.println("comando inexistente!");
 		}
-		
-	
 	}
-	
 }
